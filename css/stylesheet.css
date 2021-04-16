@@ -189,6 +189,30 @@ Date: November 28, 2020
 	height: 100%;
 }
 
+.button {
+	border: none;
+	color: white;
+	padding: 16px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	font-size: 16px;
+	transition-duration: 0.4s;
+	cursor: pointer;
+  }
+  
+  .button2 {
+	background-color: white; 
+	color: black; 
+	border: 2px solid #3182bd;
+  }
+  
+  .button2:hover {
+	background-color: #3182bd;
+	color: white;
+  }
 /* Taken from https://www.w3schools.com/css/css_rwd_mediaqueries.asp
 Styles for small devices (phones and narrow tablets) */
   @media only screen and (min-width: 768px) {
