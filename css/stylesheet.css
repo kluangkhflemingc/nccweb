@@ -139,6 +139,15 @@ Date: November 28, 2020
 	background-size: cover;
 }
 
+.timeline-header {
+	background-image: url("../images/vidar-nordli-mathisen-Kuu5mmxkwW4-unsplash.jpg");
+	min-height: 500px;
+	background-attachment: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+
 .header-overlay {
 	color: white;
 	height: 500px;

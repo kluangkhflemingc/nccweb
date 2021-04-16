@@ -19,9 +19,18 @@
                 <!-- Use the <a> element to open the dropdown menu -->
                 <a class="active" href="solutions.html">ArcGIS Solutions</a>
                 <div class = "dropdown-content">
-                    <a href="expbuild.html">Experience Builder</a>
-                    <a href="storymaps.html">Story Maps</a>
-                    <a href="hub.html">Hub</a>
+                    <a href="#story-maps">StoryMaps</a>
+                    <a href="#exp-build">Experience Builder</a>
+                    <a href="#exp-build-dev">Experience Builder Dev</a>
+                    <a href="#hub">Hub</a>
+                </div>
+            </div>
+            <div class = "dropdown">
+                <!-- Use the <a> element to open the dropdown menu -->
+                <a>Fiinal Applications</a>
+                <div class = "dropdown-content">
+                    <a href="https://experience.arcgis.com/experience/2d4f5b6920f94445a293a6102817eaac" target="_blank">Web Experience</a>
+                    <a href="https://rice-lake-plains-hydrology-fleming.hub.arcgis.com/" target="_blank">Hub Site</a>
                 </div>
             </div>
             <a href="javascript:void(0);" class="icon" onclick="navBarMin()">
@@ -39,15 +48,15 @@
         </div>
     </section>
     <section class="col-12">
-        <h2>ArcGIS StoryMaps</h2>
+        <h2 id="story-maps">ArcGIS StoryMaps</h2>
     </section>
     <section class="col-12 background-grey">
-        <h2>ArcGIS Experience Builder</h2>
+        <h2 id="exp-build">ArcGIS Experience Builder</h2>
     </section>
     <section class="col-12">
-        <h2>ArcGIS Experience Builder Developer Edition</h2>
+        <h2 id="exp=build-dev">ArcGIS Experience Builder Developer Edition</h2>
         <p class="section-style-1col">To explore the power of ArcGIS Experience Builder, ArcGIS Experience Builder Developer Edition was 
-            installed on Kristine's computer. Since the server can be installed using a personal ArcGIS Developers 
+            installed on James and Kristine's computers. Since the server can be installed using a personal ArcGIS Developers 
             account, this offers a testing environment for custom development that is not connected to a larger 
             organization. Furthermore, experiences built with the Developer Edition will not disappear once a user 
             is no longer part of an organization. Drawbacks include having to start the client and server 
@@ -69,7 +78,24 @@
             </div>
     </section>
     <section class="col-12 background-grey">
-        <h2>ArcGIS Hub</h2>
+        <h2 id="hub">ArcGIS Hub</h2>
+        <p class="section-style-1col">While ArcGIS Experience Builder has the ability to create web applications that look like webpages (i.e. an experience
+            can contain a page with all the front-end web design elements), the client did not specify that everything must be hosted in Experience Builder.
+            A Hub Site Application on ArcGIS Hub was developed to create a web application that resembles a webpage. Advantages of Hub 
+            include more customization options available for the layout and seamless integration of ArcGIS applications like web maps, web experiences and graphs. 
+        </p>
+        <div class="col-6">
+            <img src="images/hub.PNG" class="exp-image">
+        </div>        
+        <div class="col-6">
+            <img src="images/hub2.PNG" class="exp-image">
+        </div>
+        <div class="col-6">
+            <img src="images/hub1.png" class="exp-image">
+        </div>        
+        <div class="col-6">
+            <img src="images/hub3.PNG" class="exp-image">
+        </div>
     </section>
     <section class="col-12">
         <h2>Conclusions</h2>
