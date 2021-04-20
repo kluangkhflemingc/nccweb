@@ -41,9 +41,9 @@ h2, h3, p {
 	text-align: center;
 }
 
-h4 {
+.title-left {
 	font-style: italic;
-	text-align: center;
+	text-align: left;
 }
 
 .navbar {
