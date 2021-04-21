@@ -46,6 +46,11 @@ h2, h3, h4, p {
 	text-align: left;
 }
 
+li {
+	text-align: left;
+	padding-left: 5%;
+}
+
 .navbar {
 	display: block;
   margin-top: 0em;
